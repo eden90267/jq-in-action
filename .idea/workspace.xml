@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80ad4618-dd25-477a-b4c7-3b3a82977b78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap01/README.md" afterPath="$PROJECT_DIR$/chap01/README.md" />
     </list>
@@ -22,17 +21,17 @@
         <entry file="file://$PROJECT_DIR$/chap01/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="607">
-                <caret line="201" column="65" lean-forward="false" selection-start-line="201" selection-start-column="65" selection-end-line="201" selection-end-column="65" />
+              <first_editor relative-caret-position="330">
+                <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
                 <folding>
-                  <marker date="1510130196841" expanded="true" signature="898:1058" ph="{...}" />
-                  <marker date="1510130196841" expanded="true" signature="1002:1056" ph="{...}" />
-                  <marker date="1510130196841" expanded="true" signature="1836:2232" ph="..." />
-                  <marker date="1510130196841" expanded="true" signature="1843:2157" ph="..." />
-                  <marker date="1510130196841" expanded="true" signature="2164:2224" ph="..." />
-                  <marker date="1510130196841" expanded="true" signature="2710:2863" ph="..." />
-                  <marker date="1510130196841" expanded="true" signature="2788:2845" ph="{...}" />
-                  <marker date="1510130196841" expanded="true" signature="5875:5978" ph="..." />
+                  <marker date="1510133479849" expanded="true" signature="898:1058" ph="{...}" />
+                  <marker date="1510133479849" expanded="true" signature="1002:1056" ph="{...}" />
+                  <marker date="1510133479849" expanded="true" signature="1836:2232" ph="..." />
+                  <marker date="1510133479849" expanded="true" signature="1843:2157" ph="..." />
+                  <marker date="1510133479849" expanded="true" signature="2164:2224" ph="..." />
+                  <marker date="1510133479849" expanded="true" signature="2710:2863" ph="..." />
+                  <marker date="1510133479849" expanded="true" signature="2788:2845" ph="{...}" />
+                  <marker date="1510133479849" expanded="true" signature="5875:5978" ph="..." />
                 </folding>
               </first_editor>
               <second_editor>
@@ -132,12 +131,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510104573681</updated>
-      <workItem from="1510104584231" duration="19165000" />
+      <workItem from="1510104584231" duration="20912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19165000" />
+    <option name="totallyTimeSpent" value="20912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -149,7 +148,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301105" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.114825584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -204,17 +203,17 @@
     <entry file="file://$PROJECT_DIR$/chap01/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="607">
-            <caret line="201" column="65" lean-forward="false" selection-start-line="201" selection-start-column="65" selection-end-line="201" selection-end-column="65" />
+          <first_editor relative-caret-position="330">
+            <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
             <folding>
-              <marker date="1510130196841" expanded="true" signature="898:1058" ph="{...}" />
-              <marker date="1510130196841" expanded="true" signature="1002:1056" ph="{...}" />
-              <marker date="1510130196841" expanded="true" signature="1836:2232" ph="..." />
-              <marker date="1510130196841" expanded="true" signature="1843:2157" ph="..." />
-              <marker date="1510130196841" expanded="true" signature="2164:2224" ph="..." />
-              <marker date="1510130196841" expanded="true" signature="2710:2863" ph="..." />
-              <marker date="1510130196841" expanded="true" signature="2788:2845" ph="{...}" />
-              <marker date="1510130196841" expanded="true" signature="5875:5978" ph="..." />
+              <marker date="1510133479849" expanded="true" signature="898:1058" ph="{...}" />
+              <marker date="1510133479849" expanded="true" signature="1002:1056" ph="{...}" />
+              <marker date="1510133479849" expanded="true" signature="1836:2232" ph="..." />
+              <marker date="1510133479849" expanded="true" signature="1843:2157" ph="..." />
+              <marker date="1510133479849" expanded="true" signature="2164:2224" ph="..." />
+              <marker date="1510133479849" expanded="true" signature="2710:2863" ph="..." />
+              <marker date="1510133479849" expanded="true" signature="2788:2845" ph="{...}" />
+              <marker date="1510133479849" expanded="true" signature="5875:5978" ph="..." />
             </folding>
           </first_editor>
           <second_editor>
