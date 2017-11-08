@@ -214,3 +214,34 @@ grunt custom:-deprecated,-effects
 
 ## jQuery 基礎功能
 
+jQuery 核心著重的，是從 HTML 頁面取得元素並進行操作。如果你熟悉 CSS，應該早就知道選擇器的強大，在描述元素群組時，CSS 使用的是元素屬性或他們在文件中的位置。使用 jQuery，你就能運用對 CSS 的認識並發揮其火力來大量簡化 JavaScript。
+
+確認程式碼在主流瀏覽器上都能以相同方式運作，是 jQuery 的首要考量。jQuery 已經在底層解決了很多 JavaScript 難題。若還想在程式庫中加點料，jQuery 內建了個簡單但功能強大的方式進行功能擴充：plugin。
+
+現在先討論 jQuery 物件本身，以及既有的 CSS 知識，來產生功能強大且簡潔程式碼的方式。
+
+### 特性、效用函式與方法
+
+透過 jQuery 的特性，還有其快捷別名 $ 來使用 jQuery 程式庫。透過它們，你可以存取 jQuery 提供的特性、方法與函式。
+
+jQuery 特性提供的功能之一是 fx.off。它可以開啟或關閉 jQuery 的特性方法。
+
+效用 (utilities) 或 效用函式 (utility function)。可想成是程式庫中提供的一些方便、常用、通用的函式。你可以說 jQuery 扮演著這些函式的 **名稱空間** (namespace)。
+
+來看個例子，移除字串頭尾空白：
+
+```javascript
+var trimmed = $.trim(someString);
+```
+
+or jQuery 識別字：
+
+```javascript
+var trimmed = jQuery.trim(someString);
+```
+
+效用函式另一個例子是 $.isArray()，就如你所猜測的，可測試給定的引數是否為陣列。
+
+除了特性與函式，在呼叫過 jQuery() 函式之後，程式庫也提供了一些可用的方法。我們進一步來看看。
+
+### jQuery 物件
