@@ -245,3 +245,55 @@ var trimmed = jQuery.trim(someString);
 除了特性與函式，在呼叫過 jQuery() 函式之後，程式庫也提供了一些可用的方法。我們進一步來看看。
 
 ### jQuery 物件
+
+學習 jQuery 路上，學到第一個函式是 jQuery()。它最多可接受兩個引數，並且可根據引數的數量與型態執行不同的任務。
+
+就像是程式庫中其他 (幾乎是全部) 方法一樣，你可進行鏈串 (chaining)。可在一個陳述句呼叫數個方法：
+
+```javascript
+var obj = new Obj();
+obj.method();
+obj.anotherMethod();
+obj.yetAnotherMethod();
+```
+
+你可撰寫：
+
+```javascript
+var obj = new Obj();
+obj.method().anotherMethod().yetAnotherMethod();
+```
+
+jQuery() 最常的運用之一是從 DOM 中選取元素，以便能做進一步操作。它接受兩個參數：選擇器與 (可選的) 環境物件 (context)。函式會傳回一個物件，其中包括的 DOM 元素群集會符合指定的條件。但什麼是選擇器?
+
+選擇器可根據元素屬性或它們在 HTML 文件中的位置，用簡潔的方式來表達元素。熟悉 XML 的人可能會想到 XPath，這是在 XML 文件中選取元素的方式。CSS 選擇器則是換成在 HTML 網頁中使用，更為簡潔，而且通常比較容易理解。
+
+jQuery 使用的選擇器與 CSS 相同。支持 CSS 2.1 與 CSS3 (有些並非所有瀏覽器都實作 OR 從未存在過 (e.g. 舊版 IE))。如果這還不夠，jQuery 也有自己的選擇器，而且允許你自訂選擇器。
+
+```javascript
+var paragraphs = jQuery('p');
+```
+
+程式庫會從文件根節點開始，在 DOM 中搜尋符合的元素，因此若元素數量龐大的話，速度會變慢。
+
+多數情況下，你可以使用 context 參數來加速搜尋。根據使用的選擇器，可以用它來限制一或多個子樹的處理。來修改一下先前的範例：
+
+想找出所有被包括在 <div> 之中的 <p>。
+
+```javascript
+var paragraphsInDiv = jQuery('p', 'div');
+```
+
+使用 jQuery 的別名，同一個陳述句可改寫如下：
+
+```javascript
+var paragraphsInDiv = $('p', 'div');
+```
+
+當使用第二個引數時，jQuery 會根據被稱為 context 的選擇器先進行元素收集，接著再取得符合第一個 selector 參數的子裔節點 (descendant)。
+
+jQuery() 函式會傳回一個 JavaScript 物件，其中包括了符合選擇器的 DOM 元素集合，順序則是依照它們在文件中的定義。這個物件擁有大量預先定義好的方法，可以對收集的元素進行操作。我們會使用 jQuery 群集 (jQuery collection)、jQuery 物件 或 jQuery 集合 (jQuery set) 來代表傳回的 JavaScript 物件，它包括符合的元素集合，能使用 jQuery 定義的方法來操作。在需要進行某些操作時，你會經常使用 jQuery 物件，像是對頁面上一些元素運行某個動畫，或是套用樣式。
+
+某個 jQuery 方法完成工作後，會傳回操作的同一群組，以便進行另一動作。使用 jQuery 鏈串，能持續地減少程式碼數量。
+
+### 文件備妥處理器
